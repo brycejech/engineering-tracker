@@ -1,0 +1,25 @@
+nav {
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  background-color: darken(#282c34, 5%);
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.6rem;
+  z-index: 10;
+
+  a.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 0.8rem;
+    border: 1px solid white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+
+    &.active {
+      background-color: white;
+      color: #282c34;
+    }
+  }
+}

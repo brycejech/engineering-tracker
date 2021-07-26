@@ -1,0 +1,35 @@
+.engineer-pill {
+  background-color: #dddddd;
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+  padding: 0.2rem 0.4rem;
+
+  a {
+    color: #282c34;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 18px;
+
+    .status {
+      width: 12px;
+      height: 12px;
+      background-color: #282c34;
+      border-radius: 50%;
+      margin-right: 8px;
+
+      &.available {
+        background-color: yellow;
+      }
+
+      &.assigned {
+        background-color: green;
+      }
+
+      &.vacation {
+        background-color: red;
+      }
+    }
+  }
+}
