@@ -39,13 +39,20 @@ body {
 
 .page {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-top: 100px;
+  width: 1200px;
+  margin: auto;
 }
 
 .flex-col,
 .flex-row {
   display: flex;
+
+  .col {
+    flex: 1;
+  }
 
   &.align-end {
     align-items: flex-end;
@@ -64,14 +71,21 @@ body {
   flex-direction: row;
 }
 
-.search,
-.create-item {
-  font-size: 16px;
-  padding: 0.2rem 0.6rem;
-}
+.table-features {
+  .search,
+  .create-item,
+  select {
+    font-size: 16px;
+    padding: 0.2rem 0.6rem;
+  }
 
-.search {
-  margin-right: 0.4rem;
+  select {
+    margin-left: 0.4rem;
+  }
+
+  .search {
+    margin-right: 0.4rem;
+  }
 }
 
 .create-item {
