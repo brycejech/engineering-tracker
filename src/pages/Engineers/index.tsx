@@ -65,7 +65,7 @@ const Engineers: React.FC = (): JSX.Element => {
     <div className="page engineers">
       <div className="flex-row table-features">
         <div className="col">
-          <div className="flex-row justify-start align-end">
+          <div className="flex-row justify-start">
             <label>
               Sort:
               <select

@@ -5,7 +5,7 @@ time of the day.
 
 The following are the main requirements:
 - [x] User must be able to search by a specific engineer or by a specific site/location.
-- [ ] User must be able to sort by name, site/location.
+- [x] User must be able to sort by name, site/location.
 - [x] Records must show if the engineer is working or on vacation.
 - [x] User can add new or edit existing engineer’s profile.
 - [x] User can add new or edit existing site/location.
