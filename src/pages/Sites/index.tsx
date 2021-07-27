@@ -57,14 +57,14 @@ const Sites: React.FC = (): JSX.Element => {
         <div className="col">
           <div className="flex-row justify-start">
             <label>
-              Sort:
+              Sort By:
               <select
                 value={sortKey}
                 onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                   setSortKey(e.target.value as keyof Site);
                 }}
               >
-                <option value=""></option>
+                <option value="">None</option>
                 <option value="name">Name</option>
                 <option value="street">Street</option>
                 <option value="city">City</option>

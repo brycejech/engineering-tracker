@@ -67,14 +67,14 @@ const Engineers: React.FC = (): JSX.Element => {
         <div className="col">
           <div className="flex-row justify-start">
             <label>
-              Sort:
+              Sort By:
               <select
                 value={sortKey}
                 onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                   setSortKey(e.target.value as EngineerSortKey);
                 }}
               >
-                <option value=""></option>
+                <option value="">None</option>
                 <option value="firstName">First Name</option>
                 <option value="lastName">Last Name</option>
                 <option value="email">Email</option>
