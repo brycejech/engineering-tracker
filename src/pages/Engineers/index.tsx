@@ -135,7 +135,9 @@ const Engineers: React.FC = (): JSX.Element => {
                     .filter((s) => s.id === e.site)
                     .map((s) => (
                       <span key={s.id} style={{ display: 'block' }}>
-                        {s.name}
+                        <Link className="site-link" to={`/sites/${s.id}`}>
+                          {s.name}
+                        </Link>
                       </span>
                     ))}
                 </td>
